@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+table, h2{
+    margin-left : 20px;
+}
+
+.timetable{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.timetable td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.timetable th{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.classtab{
+    vertical-align: top;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.classtab td{
+    vertical-align: top;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+.classtab th{
+    vertical-align: top;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    border-bottom:none;
+}
+
