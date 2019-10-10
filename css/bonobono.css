@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+@keyframes speed{
+    0% {transform: translate(0);}
+    50% {transform: translate(1000px);}
+    to {transform: translate(0);}
+}
+
+@keyframes bounce{
+    from{
+        left: 0px;
+        bottom: 0px;
+        animation-timing-function: ease-out;
+        transform: rotate(0deg);
+    }
+    10%{
+        left: 150px;
+        bottom: 300px;
+        animation-timing-function: ease-in;
+        transform: rotate(90deg);
+    }
+    20%{
+        left: 300px;
+        bottom: 0px;
+        animation-timing-function: ease-out;
+        transform: rotate(180deg);
+    }
+    30%{
+        left: 450px;
+        bottom: 300px;
+        animation-timing-function: ease-in;
+        transform: rotate(270deg);
+    }
+    40%{
+        left: 600px;
+        bottom: 0px;
+        animation-timing-function: ease-out;
+        transform: rotate(360deg);
+    }
+    50%{
+        left: 750px;
+        bottom: 300px;
+        animation-timing-function: ease-in;
+        transform: rotate(450deg);
+    }
+    60%{
+        left: 900px;
+        bottom: 0px;
+        animation-timing-function: ease-out;
+        transform: rotate(540deg);
+    }
+    70%{
+        left: 1050px;
+        bottom: 300px;
+        animation-timing-function: ease-in;
+        transform: rotate(630deg);
+    }
+    80%{
+        left: 1200px;
+        bottom: 0px;
+        animation-timing-function: ease-out;
+        transform: rotate(720deg);
+    }
+    90%{
+        left: 1350px;
+        bottom: 300px;
+        animation-timing-function: ease-in;
+        transform: rotate(810deg);
+    }
+    to{
+        left: 1500px;
+        bottom: 0px;
+        animation-timing-function: ease-out;
+        transform: rotate(900deg);
+    }
+}
+
+@keyframes bounce2{
+    to{
+        left: 0px;
+        bottom: 200px;
+        animation-timing-function: ease-out;
+        transform: rotate(90deg);
+    }
+    90%{
+        left: 150px;
+        bottom: 500px;
+        animation-timing-function: ease-in;
+        transform: rotate(180deg);
+    }
+    80%{
+        left: 300px;
+        bottom: 200px;
+        animation-timing-function: ease-out;
+        transform: rotate(270deg);
+    }
+    70%{
+        left: 450px;
+        bottom: 500px;
+        animation-timing-function: ease-in;
+        transform: rotate(360deg);
+    }
+    60%{
+        left: 600px;
+        bottom: 200px;
+        animation-timing-function: ease-out;
+        transform: rotate(450deg);
+    }
+    50%{
+        left: 750px;
+        bottom: 500px;
+        animation-timing-function: ease-in;
+        transform: rotate(540deg);
+    }
+    40%{
+        left: 900px;
+        bottom: 200px;
+        animation-timing-function: ease-out;
+        transform: rotate(630deg);
+    }
+    30%{
+        left: 1050px;
+        bottom: 500px;
+        animation-timing-function: ease-in;
+        transform: rotate(720deg);
+    }
+    20%{
+        left: 1200px;
+        bottom: 200px;
+        animation-timing-function: ease-out;
+        transform: rotate(810deg);
+    }
+    10%{
+        left: 1350px;
+        bottom: 500px;
+        animation-timing-function: ease-in;
+        transform: rotate(900deg);
+    }
+    from{
+        left: 1500px;
+        bottom: 200px;
+        animation-timing-function: ease-out;
+        transform: rotate(990deg);
+    }
+}
+
+@keyframes hello{
+    from{transform: rotate(-10deg);}
+    50%{transform: rotate(25deg);}
+    to{transform: rotate(-10deg);}
+}
+
+@keyframes rotating{
+    from{transform: rotate(0deg);animation-timing-function: ease-out;}
+    10%{transform: rotate(36deg);animation-timing-function: ease-in;}
+    20%{transform: rotate(72deg);animation-timing-function: ease-out;}
+    30%{transform: rotate(108deg);animation-timing-function: ease-in;}
+    40%{transform: rotate(144deg);animation-timing-function: ease-out;}
+    50%{transform: rotate(180deg);animation-timing-function: ease-in;}
+    60%{transform: rotate(216deg);animation-timing-function: ease-out;}
+    70%{transform: rotate(252deg);animation-timing-function: ease-in;}
+    80%{transform: rotate(288deg);animation-timing-function: ease-out;}
+    90%{transform: rotate(324deg);animation-timing-function: ease-in;}
+    to{transform: rotate(360deg);animation-timing-function: ease-out;}
+}
+
+@keyframes rotating2{
+    to{transform: rotate(0deg);animation-timing-function: ease-out;}
+    90%{transform: rotate(36deg);animation-timing-function: ease-in;}
+    80%{transform: rotate(72deg);animation-timing-function: ease-out;}
+    70%{transform: rotate(108deg);animation-timing-function: ease-in;}
+    60%{transform: rotate(144deg);animation-timing-function: ease-out;}
+    50%{transform: rotate(180deg);animation-timing-function: ease-in;}
+    40%{transform: rotate(216deg);animation-timing-function: ease-out;}
+    30%{transform: rotate(252deg);animation-timing-function: ease-in;}
+    20%{transform: rotate(288deg);animation-timing-function: ease-out;}
+    10%{transform: rotate(324deg);animation-timing-function: ease-in;}
+    from{transform: rotate(360deg);animation-timing-function: ease-out;}
+}
+
+@keyframes scaleChange{
+    to{transform: scale(1.0);}
+    90%{transform: scale(1.5);}
+    80%{transform: scale(2.0);}
+    70%{transform: scale(2.5);}
+    60%{transform: scale(2.0);}
+    50%{transform: scale(1.5);}
+    40%{transform: scale(1.0);}
+    30%{transform: scale(2.0);}
+    20%{transform: scale(3.0);}
+    10%{transform: scale(2.0);}
+    from{transform: scale(1.0);}
+}
+
+
+
+
+body, article{
+    background :url("../img/rainbow.jpg") repeat-x #cccccc;
+    background-size: cover;
+}
+
+.bono1{
+    position: absolute;
+
+    animation: bounce 5s infinite linear;
+}
+
+.bono2{
+    animation: speed 2s infinite linear;
+}
+
+.bono3{
+    position: absolute;
+    animation: bounce2 7s infinite linear;
+}
+
+.bono4{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+    animation-name: rotating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: 25% 100%;
+}
+
+
+.bono5{
+    position: absolute;
+    left: 700px;
+    bottom: 400px;
+    animation-name: hello;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 25% 100%;
+}
+
+.bono6, .bono7, .bono8{
+    position: absolute;
+    left: 1000px;
+    bottom: 200px;
+    animation-name: rotating;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.bono6{
+    animation-name: scaleChange;  
+}
+
+.bono7{
+    left: 800px;
+    bottom: 100px;
+}
+
+.bono8{
+    left: 1234px;
+    bottom: 400px;
+}
+
+.bono9{
+    position: absolute;
+    left: 1300px;
+    bottom: 200px;
+    animation-name: rotating2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform-origin: 25% 100%;
+}
