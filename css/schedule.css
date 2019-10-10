@@ -43,3 +43,7 @@ table, h2{
     border-bottom:none;
 }
 
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
