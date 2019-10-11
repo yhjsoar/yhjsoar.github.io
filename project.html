@@ -3,6 +3,8 @@
 
 <head>
     <link rel="stylesheet" href="css/layout.css" type="text/css">
+    <link rel="stylesheet" href="css/project.css" type="text/css">
+    <script src="js/projectIframe.js"></script>
 </head>
 
 <body>
@@ -18,21 +20,26 @@
             <nav>
                 <a href="index.html">
                     <p id="first" class="navList">
-                        index
+                        main
+                    </p>
+                </a>
+                <a href="introduce.html">
+                    <p id="second" class="navList">
+                        introduce
                     </p>
                 </a>
                 <a href="schedule.html">
-                    <p id="second" class="navList">
+                    <p id="third" class="navList">
                         schedule
                     </p>
                 </a>
                 <a href="project.html">
-                    <p id="third" class="navList">
+                    <p id="fourth" class="navList">
                         project
                     </p>
                 </a>
                 <a href="bonobono.html">
-                    <p id="fourth" class="navList">
+                    <p id="fifth" class="navList">
                         Bono
                     </p>
                 </a>
@@ -40,7 +47,13 @@
 
             <section>
                 <article>
-                    <p>article</p>
+
+                    <iframe id="pj" src="projectHtml/1.html"></iframe>
+                    <div class="iframe_radio">
+                        <input name="projectSelection" type="radio" onClick="go('projectHtml/1.html')" checked />
+                        <input name="projectSelection" type="radio" onClick="go('projectHtml/2.html')" />
+                        <input name="projectSelection" type="radio" onClick="go('projectHtml/3.html')" />
+                    </div>
                 </article>
             </section>
 
