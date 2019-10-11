@@ -377,3 +377,7 @@ body, article{
     position: absolute;
     animation: rain5 5s infinite linear;
 }
+
+#fifth{
+    background-color: gray
+}
