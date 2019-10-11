@@ -192,6 +192,90 @@
     from{transform: scale(1.0);}
 }
 
+@keyframes rain{
+    from{
+        left: 500px;
+        bottom: 500px;
+    }
+    50%{
+        left: 1100px;
+        bottom: 0px;
+        transform: rotate(0deg);
+    }
+    to{
+        left: 1100px;
+        bottom: 0px;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rain2{
+    from{
+        left: 0px;
+        bottom:750px;
+    }
+    50%{
+        left: 900px;
+        bottom: 0px;
+        transform: rotate(0deg);
+    }
+    to{
+        left: 900px;
+        bottom: 0px;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rain3{
+    from{
+        left: 0px;
+        bottom: 500px;
+    }
+    50%{
+        left: 600px;
+        bottom: 0px;
+        transform: rotate(0deg);
+    }
+    to{
+        left: 600px;
+        bottom: 0px;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rain4{
+    from{
+        left: 250px;
+        bottom: 1000px;
+    }
+    50%{
+        left: 1450px;
+        bottom: 0px;
+        transform: rotate(0deg);
+    }
+    to{
+        left: 1450px;
+        bottom: 0px;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rain5{
+    from{
+        left: 400px;
+        bottom: 500px;
+    }
+    50%{
+        left: 1000px;
+        bottom: 0px;
+        transform: rotate(0deg);
+    }
+    to{
+        left: 1000px;
+        bottom: 0px;
+        transform: rotate(360deg);
+    }
+}
 
 
 
@@ -267,4 +351,29 @@ body, article{
     animation-duration: 1s;
     animation-iteration-count: infinite;
     transform-origin: 25% 100%;
+}
+
+.shell1{
+    position: absolute;
+    animation: rain 2s infinite linear;
+}
+
+.shell2{
+    position: absolute;
+    animation: rain2 4s infinite linear;
+}
+
+.shell3{
+    position: absolute;
+    animation: rain3 1.5s infinite linear;
+}
+
+.shell4{
+    position: absolute;
+    animation: rain4 4s infinite linear;
+}
+
+.shell5{
+    position: absolute;
+    animation: rain5 5s infinite linear;
 }
