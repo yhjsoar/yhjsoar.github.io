@@ -1,2 +1,0 @@
-# yhjsoar.github.io
-homepage
